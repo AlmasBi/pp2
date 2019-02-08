@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\C#\L 2 E 4\L 2 E 4\obj\Debug\L 2 E 4.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\C#\L 2 E 4\L 2 E 4\obj\Debug\L 2 E 4.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\C#\L 2 E 4\L 2 E 4\bin\Debug\L 2 E 4.exe.config
+C:\Users\Lenovo\Desktop\C#\L 2 E 4\L 2 E 4\bin\Debug\L 2 E 4.exe
+C:\Users\Lenovo\Desktop\C#\L 2 E 4\L 2 E 4\bin\Debug\L 2 E 4.pdb
+C:\Users\Lenovo\Desktop\C#\L 2 E 4\L 2 E 4\obj\Debug\L 2 E 4.exe
+C:\Users\Lenovo\Desktop\C#\L 2 E 4\L 2 E 4\obj\Debug\L 2 E 4.pdb
