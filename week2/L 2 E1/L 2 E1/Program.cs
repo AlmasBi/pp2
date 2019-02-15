@@ -10,35 +10,31 @@ namespace L_2_E1
 
     class Program
     {
-        public static bool Ex7()
+        class Program
+    {
+        public static bool Polyndrom(string q)   // булевая функция для проверки на полиндромность
         {
-            StreamReader sr = new StreamReader("input.txt");
-            String s = sr.ReadToEnd();
-            String[] arr = s.Split();
-            bool qw = false;
-            for (int i = 0; i <= arr.Length; i++)
+            bool qw = true;   
+            for(int i = 0; i <= q.Length/2; i++)    // пробегаемся до середины текста и проверяем первый и последний элемент на сходство
             {
-                if (arr[0] == arr[arr.Length - 1 - i])
+                if (q[i] != q[q.Length - 1 - i])   //  если не равны то текст является не полиндромом, функция возвращает значение false
                 {
-                    qw = true;
+                    qw = false;
                     return qw;
                 }
-
-            }return qw;
+            }
+            return qw;    // если же все элементы равны, то функция возвращает значение true
         }
-
         static void Main(string[] args)
         {
-         
-               if(Ex7())
+            string file = File.ReadAllText("input.txt");   // стринговая переменная file принимает значение текста в данной path
+            if (Polyndrom(file))    // проверяем текст на полиндромность
             {
-                Console.WriteLine("Yes");
+                Console.WriteLine("Yes");   // если полиндром выводим yes, иначе no
             }
-            else
-            {
-                Console.WriteLine("No");
-            }
-            Console.ReadKey();
+            else Console.WriteLine("No");
+
+            Console.ReadKey();   // ЧТОБЫ КОНСОЛЬ НЕ ЗАКРЫЛАСЬ СРАЗУ
         }
     }
 }
