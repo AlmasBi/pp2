@@ -41,7 +41,7 @@ namespace L_2_E_3
         }
         static void Main(string[] args)
         {
-            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\user1\Desktop\ict");    // создаем переменную класса DirectoryInfo
+            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\Lenovo\Desktop\C#");    // создаем переменную класса DirectoryInfo
             qweqwe(dir, 0);   //  функция для отображения содержимого папки
             Console.ReadKey();   // ЧТОБЫ  КОНСОЛЬ НЕ ЗАКРЫЛАСЬ СРАЗУ
         }
