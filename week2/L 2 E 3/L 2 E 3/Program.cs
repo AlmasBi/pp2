@@ -8,9 +8,7 @@ namespace L_2_E_3
 {
     class Program
     {
-        static void Main(string[] args)
-        {class Program
-    {
+       
         static string Space(int a)     // функция для создания иерархии
         {
             string s = "      ";
