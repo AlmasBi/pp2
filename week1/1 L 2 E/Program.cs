@@ -8,7 +8,7 @@ namespace _1_L_2_E
 {
     class Program
     {
-        static void Main(string[] args)
+        class Student
         {
  private string name;  //  имя студента
             private string id;  //  ID студента
